@@ -46,6 +46,10 @@ public class Encrypter {
                     .setContents(new StringSelection(end), null);
         }
 
+        if (askForClipboard == JOptionPane.NO_OPTION) {
+            System.exit(0);
+        }
+
         JOptionPane.showMessageDialog(null, "Copied to Clipboard. You can paste it anywhere now");
 
     }
