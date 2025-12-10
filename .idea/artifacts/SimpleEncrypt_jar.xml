@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SimpleEncrypt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleEncrypt_jar</output-path>
+    <root id="archive" name="SimpleEncrypt.jar">
+      <element id="module-output" name="SimpleEncrypt" />
+    </root>
+  </artifact>
+</component>
